@@ -65,7 +65,7 @@ id,responses,created_at
 
 1. **Klona från GitHub:**
    ```bash
-   git clone https://github.com/hampusjohanson/trax-mall.git
+   git clone https://github.com/hampusjohansson/trax-version-gamma.git
    ```
 
 2. **Exportera från Supabase:**

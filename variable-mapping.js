@@ -1,4 +1,4 @@
-// Variabelmappning för Trax-mall enkät
+// Variabelmappning för Trax Version Gamma enkät
 // Från nuvarande namn till standardnamn (A1, A2, etc.)
 
 const VARIABLE_MAPPING = {
@@ -185,7 +185,7 @@ const VARIABLE_MAPPING = {
 
 // Generera SPSS-syntax
 function generateSPSSSyntax() {
-  let syntax = `* SPSS Syntax för Trax-mall enkät
+  let syntax = `* SPSS Syntax för Trax Version Gamma enkät
 * Genererad automatiskt
 
 * Variable Labels
