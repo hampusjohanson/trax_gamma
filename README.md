@@ -1,6 +1,6 @@
-# 📊 Trax Version Gamma - Enkät-applikation
+# ⭐ Trax Version Gamma - Stjärntecken Enkät
 
-En modern enkät-applikation byggd med React, Vite och Supabase. Samlar in data om kön, ålder och stjärntecken från användare. Detta är Gamma-versionen av Trax-projektet.
+En enkel och elegant enkät-applikation byggd med React, Vite och Supabase. Samlar in data om användares stjärntecken. Detta är Gamma-versionen av Trax-projektet.
 
 ## Installation
 
@@ -76,11 +76,11 @@ Trax_Version_Gamma/
 
 ## Funktioner
 
-- ✅ **Modern enkät-design** - Snygg och responsiv UI
-- ✅ **Tre frågor** - Kön, ålder och stjärntecken
+- ✅ **Enkel och elegant design** - Snygg och responsiv UI
+- ✅ **En fråga** - Stjärntecken
 - ✅ **Supabase-integration** - Automatisk datalagring
 - ✅ **Realtidsstatistik** - Visar totalt antal svar
-- ✅ **Validering** - Alla fält är obligatoriska
+- ✅ **Validering** - Stjärntecken måste väljas
 - ✅ **Success-sida** - Bekräftelse efter inskickning
 - ✅ **Responsiv design** - Fungerar på alla enheter
 
