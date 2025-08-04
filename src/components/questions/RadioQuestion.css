@@ -1,0 +1,122 @@
+.question-group {
+  margin-bottom: 32px;
+  padding: 24px;
+  background: #f8fafc;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.question-group:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-color: #cbd5e1;
+}
+
+.question-label {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 20px 0;
+  line-height: 1.4;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.option-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  min-height: 56px;
+}
+
+.option-label:hover {
+  border-color: #88FFC2;
+  background: #f8fffd;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(136, 255, 194, 0.2);
+}
+
+.option-label input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #cbd5e1;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+
+.option-label input[type="radio"]:checked {
+  border-color: #88FFC2;
+  background: #88FFC2;
+  box-shadow: 0 0 0 3px rgba(136, 255, 194, 0.3);
+}
+
+.option-label input[type="radio"]:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background: white;
+  border-radius: 50%;
+}
+
+.option-label input[type="radio"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(136, 255, 194, 0.5);
+}
+
+.option-text {
+  font-size: 1em;
+  color: #374151;
+  font-weight: 400;
+  line-height: 1.4;
+  flex: 1;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .question-group {
+    padding: 20px;
+    margin-bottom: 24px;
+  }
+  
+  .question-label {
+    font-size: 1.1em;
+    margin-bottom: 16px;
+  }
+  
+  .option-label {
+    padding: 14px 16px;
+    min-height: 52px;
+    gap: 10px;
+  }
+  
+  .option-label input[type="radio"] {
+    width: 22px;
+    height: 22px;
+    border-width: 2px;
+  }
+  
+  .option-text {
+    font-size: 0.95em;
+  }
+} 

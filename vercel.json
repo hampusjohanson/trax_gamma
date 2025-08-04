@@ -1,0 +1,7 @@
+{
+  "public": true,
+  "name": "trax-version-gamma",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite"
+} 
