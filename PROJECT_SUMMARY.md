@@ -1,4 +1,4 @@
-# 🎯 Trax Mall Version 2 - Projekt Sammanfattning
+# 🎯 Trax Version Gamma - Projekt Sammanfattning
 
 ## ✅ **Vad vi har åstadkommit:**
 

@@ -1,4 +1,4 @@
-# Supabase Setup för Enkät-projektet
+# Supabase Setup för Trax Version Gamma
 
 ## Steg 1: Skapa tabell i Supabase
 

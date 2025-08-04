@@ -1,6 +1,6 @@
-# 📊 Enkät-applikation
+# 📊 Trax Version Gamma - Enkät-applikation
 
-En modern enkät-applikation byggd med React, Vite och Supabase. Samlar in data om kön, ålder och stjärntecken från användare.
+En modern enkät-applikation byggd med React, Vite och Supabase. Samlar in data om kön, ålder och stjärntecken från användare. Detta är Gamma-versionen av Trax-projektet.
 
 ## Installation
 
@@ -61,7 +61,7 @@ VITE_SUPABASE_ANON_KEY=din_supabase_anon_key_här
 ## Projektstruktur
 
 ```
-Trax_Mall_Version_2/
+Trax_Version_Gamma/
 ├── src/
 │   ├── App.jsx          # Huvudkomponent med Supabase-koppling
 │   ├── App.css          # Styling för App-komponenten
